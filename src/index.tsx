@@ -88,6 +88,7 @@ const Game = () => {
   useEffect(() => {
     if (stage == GameStage.GAME) {
       setChars([]);
+      setScore(0);
     }
 
   }, [stage]);
